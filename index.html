@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fanuc UI</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </head>
+  <body id="body">
+    <script src="./pages/begin.js"></script>
+    <script src="./pages/input.js"></script>
+    <script src="./pages/testpoint.js"></script>
+    <script src="./pages/status.js"></script>
+    <script src="./pages/summary.js"></script>
+
+    <script>
+      // This script handles listening for clicks and loading the next page
+      // Load input page when begin button is clicked
+      var beginBtn = document.getElementById("begin-btn");
+      var body = document.getElementById("body");
+      beginBtn.addEventListener("click", function () {
+        console.log("Begin btn clicked.");
+        fadeOut(load_input);
+      });
+    </script>
+  </body>
+</html>
