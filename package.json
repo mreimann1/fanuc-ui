@@ -1,0 +1,15 @@
+{
+  "name": "fanuc-ui",
+  "version": "1.5.1",
+  "description": "an electron app to provide a UI for the Fanuc",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marques Reimann",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.4"
+  }
+}
