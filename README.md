@@ -6,7 +6,7 @@ _Screenshot of FANUC UI_
 
 ## Description
 
-Electron application which uses a REST API to collect readings from a FANUC robot.
+Electron application which uses a REST API to collect readings from a FANUC robot at [NextFlex](https://www.nextflex.us/).
 
 ## Initializing Project
 
