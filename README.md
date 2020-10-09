@@ -2,7 +2,7 @@
 
 ![fanuc ui](./img/fanuc_ui.png)
 
-_Screenshot of FANUC UI_
+_Screenshot of the FANUC UI welcome page_
 
 ## Description
 
