@@ -33,14 +33,19 @@ This project is meant to be run with node.js using `npm install` then `npm start
 
 ## API Structure
 
-`/validatelotnum?lot_num="{lot_num}"` Post: Check if a lot number is valid. Valid lot numbers are integers greater than zero and correspond to the FANUCs database.
+`/validatelotnum?lot_num="{lot_num}"` 
+Post: Check if a lot number is valid. Valid lot numbers are integers greater than zero and correspond to the FANUCs database.
 
-`/startjob?lot_num=1&job_str="{lot_num}"` Post: Start a job. Pass this request a string of lot numbers separated by commas.
+`/startjob?lot_num=1&job_str="{lot_num}"` 
+Post: Start a job. Pass this request a string of lot numbers separated by commas.
 
-`/getstate` Get: Receive a JSON with state and data. System has 3 states - Waiting, running, and complete. The data portion of the response contains the readings.
+`/getstate` 
+Get: Receive a JSON with state and data. System has 3 states - Waiting, running, and complete. The data portion of the response contains the readings.
 
-`/resetresults` Get: Resets the saved readings.
+`/resetresults` 
+Get: Resets the saved readings.
 
-`/abortjob` Get: Ends a job early.
+`/abortjob` 
+Get: Ends a job early.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a532935c49c0154e6b0b)
