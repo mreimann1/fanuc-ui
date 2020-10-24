@@ -19,7 +19,7 @@ To initialize it using npm, run the following command:
 
 ## Installing Dependencies
 
-This project uses bootstrap, jquery, and poppers. Installing these dependencies requires the following commands:
+This project uses [bootstrap](https://getbootstrap.com/), [jquery](https://jquery.com/), and [popper.js](https://popper.js.org/). Installing these dependencies requires the following commands:
 
 `npm install bootstrap`
 
